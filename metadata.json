@@ -1,0 +1,6 @@
+{
+  "name": "EcoLife+",
+  "description": "EcoLife+ turns your everyday choices into real impact with an interactive 3D rotating Earth, Planet Health restoration engine, gamified challenges, and community impact.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
