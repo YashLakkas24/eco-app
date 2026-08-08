@@ -2,118 +2,159 @@
 
 ### Small Actions. Massive Impact.
 
-> **EcoLife+** is an interactive sustainability platform that transforms everyday environmental choices into measurable planetary impact through gamification, an interactive 3D Earth, AI-powered guidance, challenges, impact tracking, and community engagement.
+EcoLife+ is an AI-powered sustainability platform that transforms everyday environmental actions into measurable, visual, and rewarding impact.
+
+Instead of simply telling users to "save the planet", EcoLife+ makes sustainability interactive. Users can complete eco-friendly challenges, track their environmental impact, calculate their carbon footprint, receive AI-powered recommendations, monitor sustainable transportation, interact with a digital Earth, earn Green Points, unlock achievements, compete on leaderboards, and share their progress with the community.
+
+> 🌱 **Turn everyday choices into real environmental impact.**
 
 ---
 
-## 🌱 Overview
+## 📌 Table of Contents
 
-Sustainability is often presented as a responsibility rather than an engaging experience.
-
-People know that they should:
-
-- Reduce waste
-- Save water
-- Reduce carbon emissions
-- Use sustainable transportation
-- Recycle correctly
-- Conserve energy
-- Make environmentally responsible choices
-
-However, the biggest challenge is **consistency, motivation, and visibility of impact**.
-
-EcoLife+ addresses this problem by transforming sustainable actions into an interactive experience where users can **track their choices, earn rewards, complete challenges, receive AI-powered guidance, and see their impact represented through a living digital Earth.**
-
-### Our Core Idea
-
-> **What if every sustainable action visibly helped heal a digital version of Earth?**
-
-EcoLife+ turns environmental responsibility into a measurable, visual, social, and gamified experience.
+- [About the Project](#about-the-project)
+- [Problem Statement](#problem-statement)
+- [Our Solution](#our-solution)
+- [Key Features](#key-features)
+- [How It Works](#how-it-works)
+- [Technology Stack](#technology-stack)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [API Reference](#api-reference)
+- [Future Scope](#future-scope)
+- [Team](#team)
+- [License](#license)
 
 ---
 
-# 🎯 Problem Statement
+## 🌱 About the Project
 
-Many existing sustainability platforms focus primarily on statistics and tracking.
+Climate change and environmental degradation are not only large-scale problems. They are also the result of millions of small everyday decisions. Whether it is choosing a car instead of walking, wasting water, or using unnecessary plastic, individual actions collectively contribute to environmental impact.
 
-While numbers such as:
-
-- CO₂ emissions
-- Carbon footprint
-- Energy consumption
-- Waste generated
-
-are important, they often fail to create long-term engagement.
-
-Users need:
-
-- Immediate feedback
-- Motivation
-- Personalization
-- Gamification
-- Social engagement
-- Visible progress
-- Simple actionable recommendations
-
-EcoLife+ combines all of these into a single platform.
+The problem is that sustainability platforms often present this information as plain statistics. EcoLife+ takes a different approach by creating an interactive experience where your actions visibly heal a digital planet.
 
 ---
 
-# 💡 Our Solution
+## ❗ Problem Statement
 
-EcoLife+ creates a feedback loop between **user actions and planetary impact**.
+The current sustainability experience has several problems:
+1. **Lack of Engagement:** Many environmental applications provide information but fail to keep users engaged over time.
+2. **Lack of Personalization:** Generic sustainability advice may not be relevant to an individual's lifestyle.
+3. **Invisible Impact:** Users often cannot visually understand how their individual actions contribute to environmental improvement.
+4. **Lack of Motivation:** Without rewards, progress tracking, or social interaction, users may lose motivation.
+5. **Fragmented Tools:** Carbon calculators, recycling information, and sustainability tracking are often spread across separate platforms.
 
-A user can:
+---
 
+## 💡 Our Solution
+
+EcoLife+ combines sustainability, artificial intelligence, gamification, data visualization, and community interaction into one ecosystem. 
+
+The platform allows users to:
+🌍 Visualize planetary health  
+♻️ Track sustainable actions  
 🌱 Complete eco challenges  
-🌍 Improve Planet Health  
-♻️ Calculate their carbon footprint  
-🚲 Track sustainable transportation  
-🤖 Receive AI-powered eco recommendations  
-🏆 Earn Green Points and achievements  
-👥 Participate in a community  
-📊 Track environmental impact  
-🌫️ Check air quality  
-♻️ Learn how to recycle correctly  
-✨ Generate their personalized Eco Wrapped summary
-
-The experience is designed around one simple principle:
-
-> **Make sustainable living measurable, visual, social, and fun.**
+🚲 Track green transportation  
+🧮 Calculate carbon footprint  
+🤖 Receive AI-powered recommendations  
+🏆 Earn Green Points & unlock achievements  
+👥 Participate in a sustainability community  
 
 ---
 
-# 🌍 The Living Earth
+## 🚀 Key Features
 
-The central experience of EcoLife+ is an interactive digital Earth.
+### 🌍 1. Interactive 3D Earth
+The centerpiece of EcoLife+ is an interactive digital Earth representing the environmental state of the user's ecosystem. It includes 3D rendering, atmospheric effects, lighting, and a dynamic Planet Health visualization that responds to your eco-actions.
 
-Instead of displaying environmental statistics as isolated numbers, EcoLife+ connects user actions to the health of a digital planet.
+### 🧠 2. Planet Health Engine
+A backend engine that tracks the overall health of the digital planet. When you log a positive environmental action, the engine updates the planet's state, triggering visual healing effects on the 3D Earth.
 
-The Earth experience includes:
+### 🎯 3. Eco Challenges & Gamification
+Actionable sustainability challenges (e.g., plant a tree, save water, recycle) that reward users with Green Points, level-ups, and leaderboard rankings.
 
-- Interactive 3D Earth
-- Atmospheric effects
-- Cloud layers
-- Lighting
-- Environmental particles
-- Camera movement
-- Planet Health visualization
-- Environmental HUD
-- Dynamic visual feedback
+### 🧮 4. Carbon Calculator & Green Miles
+Evaluate the impact of your lifestyle choices and track sustainable transportation (walking, cycling). The system converts these activities into measurable environmental impact.
 
-The Earth acts as a visual representation of collective environmental progress.
+### ♻️ 5. Smart Recycling Guide & AQI Checker
+A guide to help users properly dispose of waste, paired with an Air Quality Index checker to understand local environmental conditions.
 
-### Concept
+### 🤖 6. AI Eco Advisor
+Powered by Google's Gemini AI, this feature provides personalized sustainability recommendations based on your specific lifestyle inputs rather than generic tips.
 
-```text
-User Action
-     ↓
-Environmental Impact
-     ↓
-Green Points
-     ↓
-Planet Health
-     ↓
-Digital Earth Responds
-     ↓
-User Sees Their Impact
+### ✨ 7. Eco Wrapped
+A personalized summary of your sustainability journey—your year of environmental impact visualized.
+
+---
+
+## 🔄 How It Works
+
+| Step | What Happens |
+|------|--------------|
+| 🌱 1 | **User performs a sustainable action** (e.g., tracking a bike ride). |
+| ⚡ 2 | **Impact is calculated** in the backend using the Green Score Engine. |
+| 🏆 3 | **User earns Green Points** and unlocks achievements. |
+| 🌍 4 | **Planet Health score increases** based on the collective actions. |
+| 🌎 5 | **Digital Earth responds visually**, showing a cleaner, greener planet. |
+| 📊 6 | **User sees their impact** on their personalized dashboard. |
+
+---
+
+## 🛠️ Technology Stack
+
+**Frontend:**
+- React (Vite)
+- TypeScript / JavaScript
+- Tailwind CSS
+- Framer Motion
+- Three.js & React Three Fiber (3D Earth)
+
+**Backend & AI:**
+- Node.js & Express
+- Google Gemini API (AI Eco Advisor)
+
+**State Management:**
+- Zustand / Context API
+
+---
+
+## 📁 Project Structure
+
+```
+ecolife+/
+├── public/
+│   └── earth.glb
+├── src/
+│   ├── components/      # UI Components (Hero, Dashboards, Leaderboards)
+│   ├── earth/           # Three.js & React Three Fiber components
+│   ├── engine/          # Planet Health & Green Score logic
+│   ├── context/         # Auth & State Contexts
+│   ├── hooks/           # Custom React Hooks
+│   ├── App.jsx
+│   └── main.jsx
+├── server.ts            # Express server configuration
+├── .env.example
+└── package.json
+```
+## 🚀 Future Scope
+
+- **Advanced Earth Simulation:** Regional environmental health, live weather integration, and real-world carbon datasets.
+- **Mobile Application:** Expanding to iOS/Android with background walk tracking and location-based challenges.
+- **Hardware Integration:** Pulling real-time data from IoT environmental sensors & wearable devices.
+- **Enterprise/College Leagues:** Team-based sustainability challenges for larger organizations.
+
+---
+
+## 👨‍💻 Team
+
+**Krashh Coders**  
+Built with ❤️ for PixxelHack 2.0.
+
+---
+
+## 📄 License
+
+This project was developed as a hackathon project. 
+
+> **EcoLife+**  
+> *Small Actions. Massive Impact. Heal the planet, one action at a time.* 🌱🌍
